@@ -1,0 +1,264 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td ,textarea,input { margin:0; padding:0;  }
+address,cite,dfn,em,var, i {font-style:normal;}
+body {font-size: 14px; line-height: 1.5; font-family:'PingFang SC','simsun','arial','tahoma';  color: #222; background: #fff; }
+table { border-collapse:collapse; border-spacing:0; }
+h1, h2, h3, h4, h5, h6, th { font-size: 100%; font-weight: normal; }
+button,input,select,textarea{font-size:100%;}
+fieldset,img{border:0;}
+a { text-decoration: none; color: #666; background: none }
+ul, ol { list-style: none; }
+:focus{ outline:none;}
+.clearfix{ clear: both; content: ""; display: block; overflow: hidden }
+.clear{clear: both;}
+.fl{ float: left; }
+.fr{float: right;}
+
+
+/* 头部 */
+.w2{
+	width: 1200px;
+	margin: 0 auto;
+}
+.header {
+}
+.hd_logo{
+	float: left;
+	margin-top: 12px;
+}
+.hd_nav{
+	float: right;
+	padding: 22px 0;
+}
+.hd_nav ul{
+	display: flex;
+}
+.hd_nav li{
+	display: inline-block;
+	margin-right: 46px;
+}
+.hd_nav_ck{
+	color: #C39A60;
+}
+.hd_nav li:last-child{
+	margin-right: 0!important;
+}
+.down_box{
+	position: relative;
+}
+.hd_nav_item_box{
+	position: absolute;
+	width: 250px;
+    height: 180px;
+    background-color: #fff;
+	left: 0;
+	top: 65px;
+	z-index: 1;
+}
+.hd_down{
+	position: relative;
+}
+.hd_down img{
+	position: absolute;
+	width: 19px;
+	height: 19px;
+}
+.hd_nav{
+	position: relative;
+}
+.hd_nav_item_box span{
+	display: block;
+	margin-left: 60px!important;
+	position: relative;
+	padding: 19px 0;
+}
+.hd_nav_item_box .hd_item_ico{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: -40px;
+	top: 15px;
+}
+.ico_a{
+	background: url(../images/ico_a.png) no-repeat center;
+	background-size: 100%;
+}
+.ico_b{
+	background: url(../images/ico_b.png) no-repeat center;
+	background-size: 100%;
+}
+.ico_c{
+	background: url(../images/ico_c.png) no-repeat center;
+	background-size: 100%;
+}
+/* banner */
+.banner_box{
+	position: relative;
+}
+.banner_box img{
+	width: 100%;
+}
+.img_bar{
+	background: rgba(195,154,96,.96);
+	width: 100%;
+	height: 245px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: flex;
+}
+.img_bar_box{
+	background-image: url(../images/img_bd.png);
+	background-size: 3px 245px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.ibb_item{
+	display: inline-block;
+	width: 24%;
+	box-sizing: border-box;
+	background-image: url(../images/img_bd.png);
+	background-size: 3px 245px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 100%;
+}
+.ibbi_top{
+	margin-top: 80px;
+}
+.ibb_item span{
+	font-size: 46px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+}
+.ibbi_bottom{
+	font-size: 20px!important;
+	font-weight: 100!important;
+}
+.ibb_item span i{
+	font-size: 20px;
+}
+
+/* 首页section——a */
+.sh_box{
+	padding: 90px 0;
+}
+.shi_left{
+	display: inline-block;
+}
+.shi_left{
+	width: 490px;
+	height: 408px;
+}
+.shi_right{
+	display: inline-block;
+	float: right;
+	width: 578px;
+}
+.shirt_h{
+	font-size: 36px;
+	font-weight: bold;
+	display: inline-block;
+}
+.shirt_more{
+	display: inline-block;
+	color: #898989;
+	font-size: 20px;
+	margin-left: 10px;
+}
+.shir_conter{
+	font-size: 18px;
+	color: #898989;
+	line-height: 32px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.shird_item{
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+	margin-right: 65px;
+}
+.shirdi_top{
+	color: #C39A60;
+	font-weight: bold;
+	display: block;
+	font-size: 46px;
+	font-family: DIN Condensed, DIN Condensed-Bold;
+	font-weight: 700;
+	text-align: left;
+	color: #c39a60;
+	line-height: 32px;
+}
+.shirdi_down{
+	color: #898989;
+	font-size: 14px;
+	font-family: SF Pro Display, SF Pro Display-Regular;
+	line-height: 32px;
+}
+
+/* 首页section——b */
+.sh_index_b{
+	background: url(../images/sh_b_b.jpg) no-repeat top left;
+	background-size: 100% 100%;
+	padding-top: 100px!important;
+	padding-bottom: 80px!important;
+}
+.sh_index_b .sh_box{
+	padding: 0!important;
+}
+.shi_b_top{
+	text-align: center;
+}
+.shibt_title{
+	font-size: 46px;
+	font-family: SF Pro Display, SF Pro Display-Medium;
+	font-weight: 500;
+	color: #c39a60;
+	line-height: 32px;
+}
+.shibt_more{
+	position: relative;
+	width: 260px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.shibtm_txt{
+	font-size: 20px;
+	font-family: PingFang SC, PingFang SC-Regular;
+	font-weight: 400;
+	color: #898989;
+	line-height: 32px;
+	background-color: #dbe2e9;
+	padding: 0 10px;
+	position: relative;
+	z-index: 1;
+}
+.shibtm_brd{
+	width: 260px;
+	height: 1px;
+	background-color: #898989;
+	position: absolute;
+	left: 0;
+	top: 50%;
+}
+.shib_imgbox{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.shibi_a{
+	width: 1200px;
+	z-index: 1;
+	position: relative;
+}
+.shibi_b{
+	width: 1290px;
+	position: absolute;
+	left: -45px;
+	top: -45px;
+}
